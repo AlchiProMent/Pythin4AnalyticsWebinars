@@ -7,7 +7,7 @@
 from os.path import exists
 
 file_name = 'metal_rates.py'
-file_name2 = 'files2.py'
+file_name2 = 'files.py'
 file_name3 = 'new_file.txt'
 
 if __name__ == '__main__':
@@ -36,7 +36,7 @@ if __name__ == '__main__':
                     # чтение второго файла прошло успешно
 
                     # объединить оба файла в одну переменную
-                    txt3 = txt + txt2
+                    txt3 = txt + '\n' + '-'*50 + '\n' + txt2
                     # вывести на консоль значение этой переменной (т.е. тект обоих файлов)
                     print(txt3)
 
