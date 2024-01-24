@@ -7,7 +7,7 @@
 from os.path import exists
 
 file_name = 'metal_rates.py'
-file_name2 = 'files.py'
+file_name2 = 'files2.py'
 file_name3 = 'new_file.txt'
 
 if __name__ == '__main__':
